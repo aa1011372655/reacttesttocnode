@@ -83,7 +83,7 @@ class App extends Component {
               <Route path="/topics" component={Topics}/>
             </Content>
             <Footer>
-              Ant Design ©2016 Created by Ant UED
+              react demo by blue
             </Footer>
           </Layout>
         </ConnectedRouter>

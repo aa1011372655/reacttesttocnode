@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
-export default class Home extends Component {
+import {connect} from 'react-redux'
+class Home extends Component {
     render() {
         return (
-            <div>首页</div>
+            <div></div>
         )
     }
 }
+const mapStateToProps = (state) => {
+    let {} = state;
+};
+export default connect()(Home);
